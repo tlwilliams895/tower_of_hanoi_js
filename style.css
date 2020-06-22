@@ -1,0 +1,10 @@
+:root {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+ol {
+  text-align: center;
+  font-size: 20px;
+}
