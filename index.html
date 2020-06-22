@@ -24,11 +24,37 @@
         </p>
     </header>
 
-    <div class="details">
-        <div class="">
-
+    <div class="gameDetails">
+        <!-- Game Controls -->
+        <div class="col_one_details">
+            <div class="game_control">
+                <button type="button" id="startBtn">New Game</button>
+            </div>
         </div>
 
+        <!-- Move Counter -->
+        <div class="col_two_details">
+            <div>Move Counter: <span class="counter">0</span></div>
+        </div>
+
+        <!-- Selected Disc/Block -->
+        <div class="col_three_details">
+            <!-- Disc Status -->
+            <div id="currentBlock">--- Selected Disc ---</div>
+        </div>
+
+    </div>
+
+    <div class="tower-container">
+        <!-- Discs/Blocks inside tower attributes-->
+        <div id="tower1">
+            <div class="disc" style="width: 160px;"></div>
+            <div class="disc" style="width: 120px;"></div>
+            <div class="disc" style="width: 80px;"></div>
+            <div class="disc" style="width: 40px;"></div>
+        </div>
+        <div id="tower2"></div>
+        <div id="tower3"></div>
     </div>
 
     <script src="src/hanoi.js" type="text/javascript"></script>
