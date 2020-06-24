@@ -84,7 +84,7 @@ header {
   border: 2px solid #a29090;
   height: 30px;
   margin: 0 auto;
-  /* pointer-events: none; */
+  pointer-events: none;
 
   /* flex-grow: 1; */
 
