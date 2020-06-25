@@ -28,7 +28,7 @@
         <!-- Game Controls -->
         <div class="col_one_details">
             <div class="game_control">
-                <button type="button" id="startBtn">New Game</button>
+                <button type="button" onClick="window.location.reload();" id="startBtn">New Game</button>
             </div>
         </div>
 
@@ -40,21 +40,21 @@
         <!-- Selected Disc/Block -->
         <div class="col_three_details">
             <!-- Disc Status -->
-            <div id="currentBlock">--- Selected Disc ---</div>
+            <div id="currentBlock">---No Selected Disc ---</div>
         </div>
 
     </div>
 
     <div class="tower-container">
         <!-- Discs/Blocks inside tower attributes-->
-        <div id="tower1">
-            <div class="disc" style="width: 160px;"></div>
-            <div class="disc" style="width: 120px;"></div>
-            <div class="disc" style="width: 80px;"></div>
-            <div class="disc" style="width: 40px;"></div>
+        <div class="tower" id="tower1">
+            <div class="disc" id="4" style="width: 160px;" data-width="4"></div>
+            <div class="disc" id="3" style="width: 120px;" data-width="3"></div>
+            <div class="disc" id="2" style="width: 80px;" data-width="2"></div>
+            <div class="disc" id="1" style="width: 40px;" data-width="1"></div>
         </div>
-        <div id="tower2"></div>
-        <div id="tower3"></div>
+        <div class="tower" id="tower2"></div>
+        <div class="tower" id="tower3"></div>
     </div>
 
     <script src="src/hanoi.js" type="text/javascript"></script>
