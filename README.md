@@ -1,7 +1,7 @@
 ## Partner Project: Tower of Hanoi
 ### by TL Williams and Jonathan Leavell
 
-[Tower of Hanoi URL](https://tlwilliams895.gitlab.io/tower-of-hanoi)
+[Tower of Hanoi URL](https://tlwilliams895.github.io/tower_of_hanoi_js/)
 
 The Tower of Hanoi is a puzzle.
 
